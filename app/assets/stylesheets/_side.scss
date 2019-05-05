@@ -1,0 +1,24 @@
+.chat-side{
+  background-color: gray;
+  height: 800px;
+  &_header{
+    font-size: 36px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    &_name{
+      padding-left: 20px;
+    }
+    &_icons{
+      i{
+        padding-top: 13px;
+      }
+    }
+  }
+  &_content{
+    padding: 15px;
+    font-size: 20px;
+    &_group{
+      font-weight: bold;
+    }
+  }
+}
